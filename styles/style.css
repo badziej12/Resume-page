@@ -179,7 +179,7 @@ section {
 
 .icons-con {
     position: absolute;
-    bottom: calc(18% + 40px);
+    bottom: calc(18vh + 70px);
     width: 100%;
     text-align: center;
 }
@@ -197,7 +197,7 @@ section {
 .button-con {
     position: absolute;
     width: 100%;
-    bottom: calc(4% + 30px);
+    bottom: calc(4vh + 40px);
     text-align: center;
 }
 
@@ -396,6 +396,7 @@ section.projects {
 section.contact {
     background-color: #47606A;
     height: auto;
+    padding-bottom: 20px;
 }
 
 .form-con {
