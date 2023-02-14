@@ -127,8 +127,12 @@
         margin-bottom: 40px;
     }
 
-    .divider h1 {
-        line-height: 140px;
+    .projects h1 {
+        margin-bottom: calc(5vh + 40px);
+    }
+
+    footer p {
+        line-height: 65px;
     }
 
 }

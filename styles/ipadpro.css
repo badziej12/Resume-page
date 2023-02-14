@@ -85,4 +85,15 @@
         margin-top: 50px;
     }
 
+    section.projects {
+        padding-top: 120px;
+    }
+
+    .projects .project-con {
+        float: left;
+        width: 45%;
+        margin: 0 2.5%;
+    }
+
+
 }
