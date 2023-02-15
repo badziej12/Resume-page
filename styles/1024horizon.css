@@ -1,6 +1,6 @@
 @media screen and (min-width: 810px) and (orientation: landscape) {
     html {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .welcome {
@@ -22,5 +22,17 @@
 
     footer p {
         line-height: 60px;
+    }
+
+    nav.desktop {
+        display: block;
+        height: 0;
+        background-color: black;
+        transition: .3s ease-in-out;
+        z-index: 1;
+    }
+
+    .desktop.active {
+        height: 60px;
     }
 }

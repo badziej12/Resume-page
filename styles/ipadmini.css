@@ -27,6 +27,32 @@
         min-height: 960px;
     }
 
+    .dropdown-content h3 {
+        line-height: 100px;
+    }
+
+    .dropdown-bar {
+        height: 80px;
+    }
+
+    .dropdown-btn img {
+        width: 15px;
+        height: 20px;
+    }
+
+    .dropdown-btn h3 {
+        line-height: 80px;
+    }
+
+    .dropdown-content {
+        top: 80px;
+    }
+
+    .dropdown-content.active {
+        height: 404px;
+    }
+
+
 
 
 }
